@@ -1,0 +1,127 @@
+
+* {
+    box-sizing: border-box;
+    background-image: url("https://cdn.wallpapersafari.com/68/41/UvHmfJ.jpg");
+}
+
+html, body, div, img {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+    font-size: 16px;
+    text-align: center;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    line-height: 1;
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    max-height: 220px; 
+    overflow: hidden;
+    background: transparent;
+}      
+
+.header-container p {
+    margin-top: 100px;
+    background: transparent;
+}
+
+.nav ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        text-align: right;
+        background-color: antiquewhite;
+}
+
+li a {
+    display: block;
+    color: white;
+    padding: 6px 10px;
+    text-decoration: none;
+}
+
+a:link { 
+    text-decoration: none; }
+a:visited { 
+    text-decoration: none; }
+a:hover { 
+    text-decoration: none; }
+a:active { 
+    text-decoration: none; }
+   
+#mission .contain {
+        margin: auto;
+        width: 100%;        
+        opacity: 0.6;
+        color:azure;
+        justify-content: center; 
+        font-size:larger;
+}
+    
+    
+#mission {
+    height: 800px;
+    background-image: url("https://www.fightermag.se/wp-content/uploads/2017/01/Judo-och-BJJ-1024x685.jpeg");
+    border-radius: 5px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;      
+}
+
+.container-2 {
+    display: flex;
+    justify-content: center;
+}
+
+.gallery {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.item {
+    width: 50%;
+    background: transparent;
+}
+
+.item img {
+    width: 100%;
+    background: transparent;
+    height: 100%
+}
+
+
+.container-4 h2 {
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+}
+.container-3 p{
+    font-size: 20px;
+    display: flex;
+}
+
+.container-4 h1 {
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+@media screen and (min-width: 1024px) {
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+}
+
+@media screen and (max-width: 767px) {
+
+}
